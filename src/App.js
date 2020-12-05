@@ -26,7 +26,7 @@ function App() {
 
   useEffect(() => {
     fetchTours();
-  }, [url]);
+  }, []);
 
   if (loading) {
     return (
